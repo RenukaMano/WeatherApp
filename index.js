@@ -14,7 +14,7 @@ const weatherCity = async (city) => {
 //   ).then((response) => response.json());
 
 const createCardHtml = (name, emoji, temp, feelsLike, description, img) =>
-  `<div class="card" d-flex mx-auto style="width: 18rem;">
+  `<div class="card" d-flex  style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${emoji}</h5>
       <h6 class="card-subtitle mb-2 text-muted">${name}</h6>
