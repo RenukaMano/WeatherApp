@@ -32,7 +32,7 @@ const createCardHtml = (name, emoji, temp, feelsLike, description, img) =>
     <div class="col-md-2">
       <img src='${img}'>
     </div>
-    <div class="col-md-10 justify-content-center text-center">
+    <div class="col-md-10 justify-content-center align-items-center text-center">
     <h5 class="card-title">${emoji}</h5>
       <h6 class="card-subtitle mb-2 text-muted">${name}</h6>
       <p class="card-text"> ${temp}c,</br> feels like ${feelsLike},<br>${description}</p>
