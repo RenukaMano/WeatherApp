@@ -27,12 +27,12 @@ const createCardHtml = (name, emoji, temp, feelsLike, description, img) =>
   //         <img src='${img}'>
   //         </div>
   //         </div>`;
-  `<div class="card mb-3" style="max-width: 540px;">
+  `<div class="card   mb-3" style="max-width: 540px;">
   <div class="row g-2">
     <div class="col-md-2">
       <img src='${img}'>
     </div>
-    <div class="col-md-10 text-center">
+    <div class="col-md-10 justify-content-center text-center">
     <h5 class="card-title">${emoji}</h5>
       <h6 class="card-subtitle mb-2 text-muted">${name}</h6>
       <p class="card-text"> ${temp}c,</br> feels like ${feelsLike},<br>${description}</p>
@@ -105,7 +105,7 @@ searchButton.addEventListener("click", (event) => {
         description == "shower"
       ) {
         img =
-          "https://images.unsplash.com/photo-1428592953211-077101b2021b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cmFpbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=w=200&h=200&q=60";
+          "https://images.unsplash.com/photo-1428592953211-077101b2021b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cmFpbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=w=190&h=200&q=60";
       } else if (description == "snow" || description == "light snow") {
         img =
           "https://images.unsplash.com/photo-1457269449834-928af64c684d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHNub3d8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=60";
