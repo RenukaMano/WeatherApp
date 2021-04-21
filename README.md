@@ -7,7 +7,7 @@ This weather app provides a weather forecast for the city that you enter.
 1. HTML
 2. Bootstrap
 3. Javascript
-4. Git
+4. Git/github
 5. WebAPI
 
 # Steps performed:
