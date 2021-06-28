@@ -5,10 +5,12 @@ This weather app provides a weather forecast for the city that you enter.
 # Technologies used:
 
 1. HTML
-2. Bootstrap
-3. Javascript
-4. Git/github
-5. WebAPI
+2. CSS
+3. Bootstrap
+4. Javascript
+5. Git/github
+6. WebAPI
+
 
 # Steps performed:
 
