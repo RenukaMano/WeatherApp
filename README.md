@@ -18,7 +18,7 @@ This weather app provides a weather forecast for the city that you enter.
 2. Added bootstrap
 3. Created `index.js` and linked it in HTML
 4. set API key and fetched weather forecast from `https://openweathermap.org/api`
-5. Used `async and await `
+5. Used `async and await`
 6. Used emojis🌤⛈⛅☁🌤⛈⛅☁
 7. Added images for the weather forecast
 8. Used `eventListener` and `render` function
