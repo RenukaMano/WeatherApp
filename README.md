@@ -26,6 +26,6 @@ This weather app provides a weather forecast for the city that you enter.
 
 # How it looks like:
 ![image](https://user-images.githubusercontent.com/44516907/109634759-b879bd00-7b9d-11eb-8572-81b65851144a.png)
-# License:
 
+# License:
 MIT License:
